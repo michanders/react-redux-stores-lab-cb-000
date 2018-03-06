@@ -1,8 +1,8 @@
 export default function createStore(reducer){
-  let state;
+  let state = [];
 
-  const getState = () => { 
-    return state; 
+  const getState = () => {
+    return state;
   };
 
 }
